@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    var baseUrl = window.location.protocol + '//' + window.location.host + '/flipkart_sample';
+    var baseUrl = window.location.origin;
     var csrfToken = document.querySelector('meta[name="csrf-token"]');
     csrfToken = csrfToken ? csrfToken.getAttribute('content') : '';
 
