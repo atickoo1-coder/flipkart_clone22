@@ -6,10 +6,10 @@ services:
     plan: free
     envVars:
       - key: DB_HOST
-        value: your-mysql-host
+        value: mysql-198ea7f5-atickoo1-b6c3.i.aivencloud.com
       - key: DB_NAME
         value: ecommerce_db
       - key: DB_USER
-        value: your-mysql-user
+        value: avnadmin
       - key: DB_PASS
         sync: false
