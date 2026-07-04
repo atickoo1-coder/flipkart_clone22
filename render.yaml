@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: flipkart-clone
+    runtime: docker
+    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    plan: free
+    envVars:
+      - key: DB_HOST
+        value: your-mysql-host
+      - key: DB_NAME
+        value: ecommerce_db
+      - key: DB_USER
+        value: your-mysql-user
+      - key: DB_PASS
+        sync: false
